@@ -1,0 +1,722 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:<!DOCTYPE html>
+<html
+	class="ng-scope wf-opensans-n4-active wf-roboto-n4-active wf-lato-n4-active wf-oswald-n4-active wf-slabo27px-n4-active wf-lora-n4-active wf-robotocondensed-n4-active wf-sourcesanspro-n4-active wf-ptsans-n4-active wf-montserrat-n4-active wf-pathwaygothicone-n4-active wf-gudea-n4-active wf-raleway-n4-active wf-droidsans-n4-active wf-sahitya-n4-active wf-robotoslab-n4-active wf-ubuntu-n4-active wf-droidserif-n4-active wf-portlligatslab-n4-active wf-arvo-n4-active wf-cabin-n4-active wf-playfairdisplay-n4-active wf-alef-n4-active wf-josefinslab-n4-active wf-fjallaone-n4-active wf-hind-n4-active wf-inconsolata-n4-active wf-notoserif-n4-active wf-creteround-n4-active wf-suranna-n4-active wf-newscycle-n4-active wf-flavors-n4-active wf-quattrocentosans-n4-active wf-prociono-n4-active wf-novaslim-n4-active wf-muli-n4-active wf-abel-n4-active wf-vollkorn-n4-active wf-ptsanscaption-n4-active wf-karla-n4-active wf-varelaround-n4-active wf-bonbon-n4-active wf-chonburi-n4-active wf-exo-n4-active wf-questrial-n4-active wf-dancingscript-n4-active wf-monda-n4-active wf-archivoblack-n4-active wf-pontanosans-n4-active wf-bangers-n4-active wf-ebgaramond-n4-active wf-rajdhani-n4-active wf-rhodiumlibre-n4-active wf-abrilfatface-n4-active wf-istokweb-n4-active wf-patuaone-n4-active wf-architectsdaughter-n4-active wf-sourcecodepro-n4-active wf-coveredbyyourgrace-n4-active wf-ropasans-n4-active wf-amaticsc-n4-active wf-kaushanscript-n4-active wf-armata-n4-active wf-gloriahallelujah-n4-active wf-noticiatext-n4-active wf-mandali-n4-active wf-wellfleet-n4-active wf-atomicage-n4-active wf-bokor-n4-active wf-irishgrover-n4-active wf-rubikmonoone-n4-active wf-inder-n4-active wf-cagliostro-n4-active wf-allan-n4-active wf-yantramanav-n4-active wf-koulen-n4-active wf-bayon-n4-active wf-palanquindark-n4-active wf-ntr-n4-active wf-metal-n4-active wf-catamaran-n4-active wf-amita-n4-active wf-butcherman-n4-active wf-jaldi-n4-active wf-ranga-n4-active wf-rugeboogie-n4-active wf-sreekrushnadevaraya-n4-active wf-almendradisplay-n4-active wf-chenla-n4-active wf-tenaliramakrishna-n4-active wf-fascinateinline-n4-active wf-gidugu-n4-active wf-dhurjati-n4-active wf-sumana-n4-active wf-lakkireddy-n4-active wf-peddana-n4-active wf-hanalei-n4-active wf-suravaram-n4-active wf-unlock-n4-active wf-arya-n4-active wf-hanaleifill-n4-active wf-fruktur-n4-active wf-sura-n4-active wf-fasthand-n4-active wf-pragatinarrow-n4-active wf-kadwa-n4-active wf-tillana-n4-active wf-inknutantiqua-n4-active wf-raviprakash-n4-active wf-eczar-n4-active wf-quantico-n4-active wf-asar-n4-active wf-modak-n4-active wf-imfellenglish-n4-active wf-allertastencil-n4-active wf-sansitaone-n4-active wf-yellowtail-n4-active wf-hanuman-n4-active wf-schoolbell-n4-active wf-racingsansone-n4-active wf-magra-n4-active wf-frijole-n4-active wf-freckleface-n4-active wf-unicaone-n4-active wf-belleza-n4-active wf-oranienbaum-n4-active wf-slackey-n4-active wf-gruppo-n4-active wf-cousine-n4-active wf-metrophobic-n4-active wf-forum-n4-active wf-alegreyasc-n4-active wf-parisienne-n4-active wf-puritan-n4-active wf-petitformalscript-n4-active wf-cinzeldecorative-n4-active wf-ptmono-n4-active wf-candal-n4-active wf-marcellus-n4-active wf-bilbo-n4-active wf-fondamento-n4-active wf-leaguescript-n4-active wf-dellarespira-n4-active wf-spirax-n4-active wf-medievalsharp-n4-active wf-scheherazade-n4-active wf-exo2-n4-active wf-karma-n4-active wf-snippet-n4-active wf-kronaone-n4-active wf-habibi-n4-active wf-bigshotone-n4-active wf-alikeangular-n4-active wf-itim-n4-active wf-cevicheone-n4-active wf-opensanscondensed-n4-inactive wf-active"
+	ng-app="app" lang="es">
+<script async="" src="home4u.sunnylandingpages.com_files/analytics.js"></script>
+<script async="false" type="text/javascript" src="home4u.sunnylandingpages.com_files/in-page.js"></script>
+
+<head>
+
+
+	<meta charset="UTF-8">
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<!-- base href="http://home4u.sunnylandingpages.com/" -->
+	<link rel="canonical" href="http://home4u.sunnylandingpages.com/">
+	<!-- base href="http://home4u.sunnylandingpages.com/themeset1_2017-02-28-11-37-06/" -->
+	<!--[if lt IE 9]> 		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script> 		<![endif]-->
+	<link rel="shortcut icon" href="" type="image/x-icon,image/png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="og:description" content="">
+	<title></title>
+	<style>
+		.background-video div:first-child {
+			height: 100%;
+		}
+
+		.background-video iframe {
+			height: 100% !important;
+			width: 100% !important;
+		}
+	</style>
+	<link rel="stylesheet" href="home4u.sunnylandingpages.com_files/css.css" media="all">
+	<style type="text/css" data-gs-id="gridstack-style-2692"></style>
+	<style type="text/css" data-gs-id="gridstack-style-28164"></style>
+	<style type="text/css" data-gs-id="gridstack-style-62001"></style>
+	<style type="text/css" data-gs-id="gridstack-style-57823"></style>
+	<style type="text/css" data-gs-id="gridstack-style-88192"></style>
+	<style type="text/css" data-gs-id="gridstack-style-11661"></style>
+</head>
+
+<body class="grid" style="background-color: rgb(201, 201, 201);" ng-controller="DemoController"
+	cz-shortcut-listen="true">
+	<div id="sunnytainer_1463738883074" class="sunnytainer container-fluid nopadding cover"
+		style="min-height: 100px; background-color: rgb(54, 63, 72); " data-content-type="section">
+		<div class="grid-stack grid-stack-8782 grid-stack-animate" style="height: 100px;">
+			<div class="grid-stack-placeholder grid-stack-item" style="display: none;">
+				<div class="placeholder-content"></div>
+			</div>
+			<div data-gs-x="16" data-gs-y="0" data-gs-width="7" data-gs-height="5"
+				class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+				<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+					style="display: none;"></span><span class="botline diy_ruler" style="display: none;"></span><span
+					class="leftline diy_ruler" style="display: none;"></span>
+				<div class="grid-stack-item-content cdraggable cdroppablee" id="1463740691388"
+					style="overflow: hidden; background-color: rgb(65, 75, 84);"><a
+						class="pull-right edit-btn ui-resizable-handle" title="Edit" href="#" style="display: none;"><i
+							class="glyphicon glyphicon-edit"></i></a><a
+						class="pull-right comp-set-btn ui-resizable-handle" title="Settings" href="#"
+						style="display: none;"><i class="glyphicon glyphicon-cog"></i></a><a
+						class="pull-right del-btn ui-resizable-handle" title="Delete" href="#" style="display: none;"><i
+							class="glyphicon glyphicon-trash"></i></a><a
+						class="action-btn third2 elem-moveup ui-resizable-handle" title="Move Up"
+						style="display: none;"><i class="glyphicon glyphicon-arrow-up"></i></a><a
+						class="action-btn second2 elem-movedown ui-resizable-handle" title="Move Down"
+						style="display: none;"><i class="glyphicon glyphicon-arrow-down"></i></a><a
+						class="action-btn first2 duplicate ui-resizable-handle" title="Duplicate"
+						style="display: none;"><i class="glyphicon glyphicon-duplicate"></i></a>
+				</div>
+				<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+					style="z-index: 90; display: none;"></div>
+				<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+			</div>
+			<div data-gs-x="1" data-gs-y="1" data-gs-width="5" data-gs-height="3"
+				class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+				<span class="topline diy_ruler" style="display: none;"></span>
+				<span class="rightline diy_ruler"
+					style="display: none;"></span>
+				<span class="botline diy_ruler" style="display: none;"></span>
+				<span
+					class="leftline diy_ruler" style="display: none;"></span>
+					<div id="edit1" class="libres" data-chars="13">
+						<p style="text-align: center;"><span
+								style="color: rgb(255, 255, 255); font-family: Arial, Helvetica; font-size: 34px; line-height: 50px;"><strong>Ejemplo
+									1</strong></span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sunnytainer_1463742458393" class="sunnytainer container-fluid nopadding cover"
+		style="background-image: url(&quot;https://dmpqsifgr4vyp.cloudfront.net/upload/templates/120_20160520_112547.png&quot;); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; "
+		data-content-type="section">
+		<div class="grid-stack grid-stack-8782 grid-stack-animate" style="height: 620px;">
+			<div class="grid-stack-placeholder grid-stack-item" style="display: none;">
+				<div class="placeholder-content"></div>
+			</div>
+			<div data-gs-x="16" data-gs-y="0" data-gs-width="7" data-gs-height="10"
+				class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+				<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+					style="display: none;"></span><span class="botline diy_ruler" style="display: none;"></span><span
+					class="leftline diy_ruler" style="display: none;"></span>
+				<div class="grid-stack-item-content cdraggable cdroppablee" id="1463742512372"
+					style="overflow: hidden; background-color: rgb(235, 234, 234);">
+					<div id="edit1" class="libres" data-chars="67" style="padding-top: 89px; padding-left: 20px;">
+						<p><span
+								style="color: rgb(89, 163, 252); font-family: 'Open Sans'; font-size: 20px;">Contactanos!</span>
+						</p>
+						<p><span style="color: #999999; font-family: 'Open Sans'; font-size: 16px;">Disfruta de unas
+								buenas vacaciones</span></p>
+					</div>
+				</div>
+				<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+					style="z-index: 90; display: none;"></div>
+				<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+			</div>
+			<div data-gs-x="16" data-gs-y="10" data-gs-width="7" data-gs-height="21"
+				class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+				<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+					style="display: none;"></span><span class="botline diy_ruler" style="display: none;"></span><span
+					class="leftline diy_ruler" style="display: none;"></span>
+				<div class="grid-stack-item-content cdraggable cdroppablee" id="1474460047023"
+					style="background-color: rgb(235, 234, 234);">
+					<div id="uiform_8705" class="libres uiform_7208"
+						onmouseup="this.style.opacity='1.0'; this.style.filter='Alpha(Opacity=100)';"
+						style="padding-top: 43px;">
+						<form class="slpjsgenerateform vertical-form ui-sortable ui-dform-form"
+							style="margin-bottom: 0px; padding: 0px 0px 10px; background-color: rgba(255, 255, 255, 0);"
+							data-mxval="{&quot;top&quot;:&quot;0&quot;,&quot;left&quot;:&quot;0&quot;,&quot;right&quot;:&quot;0&quot;,&quot;bottom&quot;:&quot;10&quot;,&quot;color&quot;:&quot;&quot;}"
+							action="#" method="post">
+
+							<div order="0" style="width:100%;" class="ui-dform-div form-group field-control-group">
+								<label
+									style="font-family:'Open Sans';font-weight:normal;font-size:14px;color:rgba(139,139,139,1);"
+									class="ui-dform-label col-sm-12 control-label slp-padd-10-lr">Nombre</label>
+								<div class="ui-dform-div col-sm-12 field-control"><input type="text" name="Full Name"
+										placeholder=""
+										style="height:43px;font-size:10px;color:rgba(142,142,142,1);background-color: rgba(255,255,255,1)!important;border: 1px solid rgba(188,188,188,1) !important;border-width: 1px !important;border-radius:4px !important;-webkit-border-radius:4px !important;-moz-border-radius:4px !important;-o-border-radius:4px !important;font-family:'Open Sans' !important;"
+										class="ui-dform-text form-control"></div>
+							</div>
+							<div order="3" style="width:100%;"
+								class="ui-dform-div form-group field-control-group selected-row"><label
+									style="font-family:'Open Sans';font-weight:normal;font-size:14px;color:rgba(139,139,139,1);"
+									class="ui-dform-label col-sm-12 control-label slp-padd-10-lr">Email</label>
+								<div class="ui-dform-div col-sm-12 field-control"><input type="email" name="Email"
+										placeholder=""
+										style="height:43px;font-size:10px;color:rgba(142,142,142,1);background-color: rgba(255,255,255,1)!important;border: 1px solid rgba(188,188,188,1) !important;border-width: 1px !important;border-radius:4px !important;-webkit-border-radius:4px !important;-moz-border-radius:4px !important;-o-border-radius:4px !important;font-family:'Open Sans' !important;"
+										validate="[object Object]" class="ui-dform-email form-control"></div>
+								<div class="ui-dform-div field-inline-actions"><a data-field-name="Email"
+										class="ui-dform-a field-remove"><i
+											class="ui-dform-i icon icon-minus1"></i></a><a
+										class="ui-dform-a field-sort"><i class="ui-dform-i icon icon-move1"></i></a>
+								</div>
+							</div>
+							<div order="4" style="width:100%;" class="ui-dform-div form-group field-control-group">
+								<label
+									style="font-family:'Open Sans';font-weight:normal;font-size:14px;color:rgba(139,139,139,1);"
+									class="ui-dform-label col-sm-12 control-label slp-padd-10-lr">Nº de télefono</label>
+								<div class="ui-dform-div col-sm-12 field-control"><input type="tel" name="Phone number"
+										placeholder=""
+										style="height:43px;font-size:10px;color:rgba(142,142,142,1);background-color: rgba(255,255,255,1)!important;border: 1px solid rgba(188,188,188,1) !important;border-width: 1px !important;border-radius:4px !important;-webkit-border-radius:4px !important;-moz-border-radius:4px !important;-o-border-radius:4px !important;font-family:'Open Sans' !important;"
+										validate="[object Object]" class="ui-dform-tel form-control"></div>
+								<div class="ui-dform-div field-inline-actions"><a data-field-name="Phone number"
+										class="ui-dform-a field-remove"><i
+											class="ui-dform-i icon icon-minus1"></i></a><a
+										class="ui-dform-a field-sort"><i class="ui-dform-i icon icon-move1"></i></a>
+								</div>
+							</div>
+							<div order="998" class="ui-dform-div hide"><input type="hidden" id="leadDataReceiver"
+									name="leadDataReceiver"
+									style="font-family:'Open Sans';font-weight:normal;font-size:14px;color:rgba(139,139,139,1);"
+									class="ui-dform-hidden"><input type="hidden" id="redirectUrl" name="redirectUrl"
+									class="ui-dform-hidden"><input type="hidden" id="pageUrl" name="pageUrl"
+									class="ui-dform-hidden"><input type="hidden" id="thankuMsg" name="thankuMsg"
+									class="ui-dform-hidden" value="Thank You"><input type="hidden" id="webhookUrl"
+									name="webhookUrl" class="ui-dform-hidden"></div>
+							<div id="sec-button-wrapper" order="999" style="width:100%;"
+								class="ui-dform-div lp-form-section sec-button-wrapper">
+								<div style="float:left;width:100%;" class="ui-dform-div btn-full"><input type="submit"
+										style="color:rgba(255,255,255,1) ; font-family:'Open Sans' ; font-size: 17px; font-weight: normal; border: 1px rgba(66,139,202,1) solid; border-bottom-color:rgba(66,139,202,1); background-image: none; background-color: rgba(66,139,202,1); border-width:2px;border-color:rgba(66,139,202,1);border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-o-border-radius:4px;margin: 0px auto !important;display: block;float:none;width:100%;"
+										class="ui-dform-submit btn slp-dummy-button" value="Enviar">
+								</div>
+							</div>
+						</form>
+						<div id="sec-formdata-wrapper" class="lp-form-section sec-formdata-wrapper"
+							style="display: none;">
+							<input type="hidden" class="plcmntcolor" value="rgba(119,119,119,1)">
+						</div>
+					</div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+				<div data-gs-x="1" data-gs-y="25" data-gs-width="14" data-gs-height="4"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+			</div>
+		</div>
+		<div id="sunnytainer_1463743203705" class="sunnytainer container-fluid nopadding cover"
+			style=" background-color: rgb(247, 247, 247); " data-content-type="section">
+			<div class="grid-stack grid-stack-8782 grid-stack-animate" style="height: 980px;">
+				<div class="grid-stack-placeholder grid-stack-item" style="display: none;">
+					<div class="placeholder-content"></div>
+				</div>
+				<div data-gs-x="0" data-gs-y="1" data-gs-width="25" data-gs-height="2"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+					<div class="grid-stack-item-content cdraggable cdroppablee" id="1463979626298" style="height: 200px;">
+						<div id="uiimg_6429" class="libres gridaddimg">
+							<div class="diy-img-wrapper img-align-center">
+								<div class="diy-img-wrapper-content ui-resizable"
+									style="width: 97px; top: -17px; left: -7px;"><img class="img-responsive"
+										src="home4u.sunnylandingpages.com_files/120_20160523_045118.png" alt="">
+									<div class="ui-resizable-handle ui-resizable-nw"
+										style="z-index: 90; display: none;">
+									</div>
+									<div class="ui-resizable-handle ui-resizable-ne"
+										style="z-index: 90; display: none;">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+				<div data-gs-x="0" data-gs-y="5" data-gs-width="25" data-gs-height="3"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+					<div class="grid-stack-item-content cdraggable cdroppablee" id="1463979265683"
+						style="overflow: hidden;">
+						<div id="edit1" class="libres" data-chars="21">
+							<p style="text-align: center;"><span
+									style="color: rgb(128, 128, 128); font-family: Open Sans; font-size: 32px; line-height: 45px;">DONDE
+									TE VAS A QUEDAR</span></p>
+						</div>
+					</div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+				<div data-gs-x="0" data-gs-y="8" data-gs-width="25" data-gs-height="2"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+					<div class="grid-stack-item-content cdraggable cdroppablee" id="1463979987523"
+						style="overflow: hidden;">
+						<div id="edit1" class="libres" data-chars="85">
+							<p style="text-align: center;"><span
+									style="color: #999999; font-family: Open Sans; font-size: 18px; line-height: 25px;">CON
+									MUCHAS COMODIDADES</span>
+							</p>
+						</div>
+					</div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+				<div data-gs-x="1" data-gs-y="11" data-gs-width="7" data-gs-height="19"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+					<div class="grid-stack-item-contente" id="1463982212066" style="overflow: hidden;">
+						<div id="edit1" class="libres" data-chars="102">
+							<p style="border-radius:3px 3px 3px 3px;"><img alt="Image title" class="fr-fin fr-dii"
+									src="home4u.sunnylandingpages.com_files/acbbec69a35f23abc766eb1b09b15a3637f3f997.jpg"
+									title="Image title" width="100%" height="210"></p>
+							<p style="text-align: center;"><span
+									style="color: rgb(89, 163, 252); font-family: 'Open Sans'; font-size: 24px; line-height: 34px;">LA
+									COCINA</span></p>
+						</div>
+					</div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+				<div data-gs-x="9" data-gs-y="11" data-gs-width="7" data-gs-height="19"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+					<div class="grid-stack-item-contente" id="1463982214054" style="overflow: hidden;">
+						<div id="edit1" class="libres" data-chars="101">
+							<p><img alt="Image title" class="fr-fin fr-dii"
+									src="home4u.sunnylandingpages.com_files/d3ceadff8091a635d4b7311f911feaf3b329372a.jpg"
+									title="Image title" width="100%" height="210"></p>
+							<p style="text-align: center;"><span
+									style="color: rgb(89, 163, 252); font-family: 'Open Sans'; font-size: 24px; line-height: 34px;">EL
+									BAÑO</span></p>
+
+						</div>
+					</div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+				<div data-gs-x="17" data-gs-y="11" data-gs-width="7" data-gs-height="19"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+					<div class="grid-stack-item-contente" id="1463982215695" style="overflow: hidden;">
+						<div id="edit1" class="libres" data-chars="114">
+							<p><img alt="Image title" class="fr-fin fr-dii"
+									src="home4u.sunnylandingpages.com_files/5c13a19d4bd1f4ecabccb56357bab7aedf9e5ac5.jpg"
+									title="Image title" width="100%" height="210"></p>
+							<p style="text-align: center;"><span
+									style="color: rgb(89, 163, 252); font-family: 'Open Sans'; font-size: 24px; line-height: 34px;">LA
+									TERRAZA</span></p>
+
+						</div>
+					</div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+
+
+			</div>
+		</div>
+
+		<div id="sunnytainer_1463743203706" class="sunnytainer container-fluid nopadding cover"
+			style="background-color: rgb(247, 247, 247); " data-content-type="section">
+			<div class="grid-stack grid-stack-8782 grid-stack-animate" style="height:480px">
+				<div class="grid-stack-placeholder grid-stack-item" style="display: none;">
+					<div class="placeholder-content"></div>
+				</div>
+				<p style="text-align: center;"><span
+					style="color: rgb(128, 128, 128); font-family: Open Sans; font-size: 32px; line-height: 45px;">¿Quienes
+					somos?</span></p>
+				<div data-gs-x="0" data-gs-y="5" data-gs-width="25" data-gs-height="3"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span> 	
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+				<div data-gs-x="0" data-gs-y="8" data-gs-width="25" data-gs-height="2"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+					<div class="grid-stack-item-content cdraggable cdroppablee" id="1463979987523"
+						style="overflow: hidden;">
+						<div id="edit1" class="libres" data-chars="85">
+							<p style="text-align: center;"><span
+									style="color: #999999; font-family: Open Sans; font-size: 18px; line-height: 25px;">CON
+									MUCHAS COMODIDADES</span>
+							</p>
+						</div>
+					</div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+				<div data-gs-x="1" data-gs-y="11" data-gs-width="7" data-gs-height="19"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+					<div class="grid-stack-item-contente" id="1463982212066" style="overflow: hidden;"><a
+							class="pull-right edit-btn ui-resizable-handle" title="Edit" href="#"
+							style="display: none;"><i class="glyphicon glyphicon-edit"></i></a><a
+							class="pull-right comp-set-btn ui-resizable-handle" title="Settings" href="#"
+							style="display: none;"><i class="glyphicon glyphicon-cog"></i></a><a
+							class="pull-right del-btn ui-resizable-handle" title="Delete" href="#"
+							style="display: none;"><i class="glyphicon glyphicon-trash"></i></a><a
+							class="action-btn third2 elem-moveup ui-resizable-handle" title="Move Up"
+							style="display: none;"><i class="glyphicon glyphicon-arrow-up"></i></a><a
+							class="action-btn second2 elem-movedown ui-resizable-handle" title="Move Down"
+							style="display: none;"><i class="glyphicon glyphicon-arrow-down"></i></a><a
+							class="action-btn first2 duplicate ui-resizable-handle" title="Duplicate"
+							style="display: none;"><i class="glyphicon glyphicon-duplicate"></i></a>
+						<div id="edit1" class="libres" data-chars="102">
+							<p style="border-radius:3px 3px 3px 3px;"><img alt="Image title" class="fr-fin fr-dii"
+									src="https://aishlatino.com/wp-content/uploads/2021/11/que-tipo-de-persona-te-gustaria-ser-730x411-SP.jpg"
+									title="Image title" width="100%" height="210"></p>
+							<p style="text-align: center;"><span
+									style="color: rgb(89, 163, 252); font-family: 'Open Sans'; font-size: 24px; line-height: 34px;">LUIS MARIANO</span></p>
+						</div>
+					</div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+				<div data-gs-x="9" data-gs-y="11" data-gs-width="7" data-gs-height="19"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+					<div class="grid-stack-item-contente" id="1463982214054" style="overflow: hidden;"><a
+							class="pull-right edit-btn ui-resizable-handle" title="Edit" href="#"
+							style="display: none;"><i class="glyphicon glyphicon-edit"></i></a><a
+							class="pull-right comp-set-btn ui-resizable-handle" title="Settings" href="#"
+							style="display: none;"><i class="glyphicon glyphicon-cog"></i></a><a
+							class="pull-right del-btn ui-resizable-handle" title="Delete" href="#"
+							style="display: none;"><i class="glyphicon glyphicon-trash"></i></a><a
+							class="action-btn third2 elem-moveup ui-resizable-handle" title="Move Up"
+							style="display: none;"><i class="glyphicon glyphicon-arrow-up"></i></a><a
+							class="action-btn second2 elem-movedown ui-resizable-handle" title="Move Down"
+							style="display: none;"><i class="glyphicon glyphicon-arrow-down"></i></a><a
+							class="action-btn first2 duplicate ui-resizable-handle" title="Duplicate"
+							style="display: none;"><i class="glyphicon glyphicon-duplicate"></i></a>
+						<div id="edit1" class="libres" data-chars="101">
+							<p><img alt="Image title" class="fr-fin fr-dii"
+									src="https://img.freepik.com/foto-gratis/cliente-masculino-positivo-que-presenta-nuevo-producto_74855-3636.jpg"
+									title="Image title" width="100%" height="210"></p>
+							<p style="text-align: center;"><span
+									style="color: rgb(89, 163, 252); font-family: 'Open Sans'; font-size: 24px; line-height: 34px;">JOSE MARIA</span></p>
+
+						</div>
+					</div>
+					<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+						style="z-index: 90; display: none;"></div>
+					<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+				</div>
+				<div data-gs-x="17" data-gs-y="11" data-gs-width="7" data-gs-height="19"
+					class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+					<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+						style="display: none;"></span><span class="botline diy_ruler"
+						style="display: none;"></span><span class="leftline diy_ruler" style="display: none;"></span>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	<div id="sunnytainer_1463982749014" class="sunnytainer container-fluid nopadding cover" style=""
+		data-content-type="section">
+		<div class="grid-stack grid-stack-8782 grid-stack-animate" style="height: 160px;">
+			<div class="grid-stack-placeholder grid-stack-item" style="display: none;">
+				<div class="placeholder-content"></div>
+			</div>
+			<div data-gs-x="0" data-gs-y="2" data-gs-width="18" data-gs-height="6"
+				class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+				<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+					style="display: none;"></span><span class="botline diy_ruler" style="display: none;"></span><span
+					class="leftline diy_ruler" style="display: none;"></span>
+				<div class="grid-stack-item-content cdraggable cdroppablee" id="1463982766554"
+					style="overflow: hidden;"><a class="pull-right edit-btn ui-resizable-handle" title="Edit" href="#"
+						style="display: none;"><i class="glyphicon glyphicon-edit"></i></a><a
+						class="pull-right comp-set-btn ui-resizable-handle" title="Settings" href="#"
+						style="display: none;"><i class="glyphicon glyphicon-cog"></i></a><a
+						class="pull-right del-btn ui-resizable-handle" title="Delete" href="#" style="display: none;"><i
+							class="glyphicon glyphicon-trash"></i></a><a
+						class="action-btn third2 elem-moveup ui-resizable-handle" title="Move Up"
+						style="display: none;"><i class="glyphicon glyphicon-arrow-up"></i></a><a
+						class="action-btn second2 elem-movedown ui-resizable-handle" title="Move Down"
+						style="display: none;"><i class="glyphicon glyphicon-arrow-down"></i></a><a
+						class="action-btn first2 duplicate ui-resizable-handle" title="Duplicate"
+						style="display: none;"><i class="glyphicon glyphicon-duplicate"></i></a>
+					<div id="edit1" class="libres" data-chars="123" style="padding-top: 0px; padding-left: 30px;">
+						<p style="text-align: left;"><img alt="Image title" class="fr-fil fr-dii"
+								src="home4u.sunnylandingpages.com_files/a98f516694be25ab051c0e3b145eba8d875fd4c5.png"
+								title="Image title" width="106"></p>
+						<p style="margin-left: 20px; text-align: left;"><span style="font-family: 'Open Sans';"><span
+									style="color: rgb(89, 174, 252); font-size: 24px; line-height: 70px;">Mensaje
+									Final</span><br><span
+									style="background-color: transparent; color: rgb(153, 153, 153); font-size: 16px;">Comentario
+									Final</span></span>
+						</p>
+					</div>
+				</div>
+				<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+					style="z-index: 90; display: none;"></div>
+				<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+			</div>
+			<div data-gs-x="18" data-gs-y="4" data-gs-width="6" data-gs-height="3"
+				class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+				<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+					style="display: none;"></span><span class="botline diy_ruler" style="display: none;"></span><span
+					class="leftline diy_ruler" style="display: none;"></span>
+				<div class="grid-stack-item-content cdraggable cdroppablee" id="btn1463983293767"><a
+						class="pull-right edit-btn ui-resizable-handle" title="Edit" href="#" style="display: none;"><i
+							class="glyphicon glyphicon-edit"></i></a><a
+						class="pull-right btn-set-btn ui-resizable-handle" title="Settings" href="#"
+						style="display: none;"><i class="glyphicon glyphicon-cog"></i></a><a
+						class="pull-right del-btn ui-resizable-handle" title="Delete" href="#" style="display: none;"><i
+							class="glyphicon glyphicon-trash"></i></a><a
+						class="action-btn third2 elem-moveup ui-resizable-handle" title="Move Up"
+						style="display: none;"><i class="glyphicon glyphicon-arrow-up"></i></a><a
+						class="action-btn second2 elem-movedown ui-resizable-handle" title="Move Down"
+						style="display: none;"><i class="glyphicon glyphicon-arrow-down"></i></a><a
+						class="action-btn first2 duplicate ui-resizable-handle" title="Duplicate"
+						style="display: none;"><i class="glyphicon glyphicon-duplicate"></i></a>
+				</div>
+				<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+					style="z-index: 90; display: none;"></div>
+				<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+			</div>
+		</div>
+	</div>
+	<div id="sunnytainer_1463983207634" class="sunnytainer container-fluid nopadding cover"
+		style="min-height: 78px; background-color: rgb(245, 245, 245); " data-content-type="section">
+		<div class="grid-stack grid-stack-8782 grid-stack-animate" style="height: 60px;">
+			<div class="grid-stack-placeholder grid-stack-item" style="display: none;">
+				<div class="placeholder-content"></div>
+			</div>
+			<div data-gs-x="1" data-gs-y="1" data-gs-width="10" data-gs-height="2"
+				class="grid-stack-item ui-draggable ui-resizable ui-resizable-autohide ui-draggable-disabled ui-resizable-disabled">
+				<span class="topline diy_ruler" style="display: none;"></span><span class="rightline diy_ruler"
+					style="display: none;"></span><span class="botline diy_ruler" style="display: none;"></span><span
+					class="leftline diy_ruler" style="display: none;"></span>
+				<div class="grid-stack-item-contente" id="1463984520762" style="overflow: hidden;"><a
+						class="pull-right edit-btn ui-resizable-handle" title="Edit" href="#" style="display: none;"><i
+							class="glyphicon glyphicon-edit"></i></a><a
+						class="pull-right comp-set-btn ui-resizable-handle" title="Settings" href="#"
+						style="display: none;"><i class="glyphicon glyphicon-cog"></i></a><a
+						class="pull-right del-btn ui-resizable-handle" title="Delete" href="#" style="display: none;"><i
+							class="glyphicon glyphicon-trash"></i></a><a
+						class="action-btn third2 elem-moveup ui-resizable-handle" title="Move Up"
+						style="display: none;"><i class="glyphicon glyphicon-arrow-up"></i></a><a
+						class="action-btn second2 elem-movedown ui-resizable-handle" title="Move Down"
+						style="display: none;"><i class="glyphicon glyphicon-arrow-down"></i></a><a
+						class="action-btn first2 duplicate ui-resizable-handle" title="Duplicate"
+						style="display: none;"><i class="glyphicon glyphicon-duplicate"></i></a>
+					<div id="edit1" class="libres" data-chars="21">
+						<p style="text-align: center;"><span
+								style="color: rgb(128, 128, 128); font-size: 16px; line-height: 35px;">Copyright 2023
+								Zixiong Lin Yang
+							</span></p>
+					</div>
+				</div>
+				<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
+					style="z-index: 90; display: none;"></div>
+				<div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90; display: none;"></div>
+			</div>
+		</div>
+	</div>
+
+	<script>function updatestatustosunny() { var t = new XMLHttpRequest; t.onreadystatechange = function () { 4 == this.readyState && 200 == this.status && "success" != this.responseText && (document.getElementsByTagName("body")[0].innerHTML = "<div class=\"container error-box\" style=\"width: 400px;margin: 20% auto 0 auto;text-align: center; font-size: 18px; color: #484848;font-weight: 300;    display: block;\"><p>This landing page is not available.</p><p>If you are the Page Admin, please log-in and check your account status.</p></div>") }, t.open("GET", "https://sunnylandingpages.com/usroutput/updateuserstatus.php?status=" + document.getElementById("slpageuserstatus").innerHTML, !0), t.send() } window.onload = updatestatustosunny;</script>
+	<script src="home4u.sunnylandingpages.com_files/jquery-1.9.0.min.js"></script>
+	<script src="home4u.sunnylandingpages.com_files/webfont.js"></script>
+	<script> 			WebFont.load({ google: { families: ["Open Sans", "Roboto", "Lato", "Slabo 27px", "Oswald", "Roboto Condensed", "Lora", "Source Sans Pro", "PT Sans", "Montserrat", "Raleway", "Open Sans Condensed", "Droid Sans", "Ubuntu", "Droid Serif", "Roboto Slab", "Playfair Display", "Arvo", "Cabin", "Fjalla One", "Hind", "Noto Serif", "Inconsolata", "Muli", "Abel", "Vollkorn", "PT Sans Caption", "Karla", "Varela Round", "Exo", "Questrial", "Dancing Script", "Monda", "Pathway Gothic One", "Pontano Sans", "Gudea", "Archivo Black", "Bangers", "EB Garamond", "Abril Fatface", "Istok Web", "Patua One", "Architects Daughter", "Josefin Slab", "Source Code Pro", "Covered By Your Grace", "Ropa Sans", "Kaushan Script", "Amatic SC", "Crete Round", "Armata", "Gloria Hallelujah", "News Cycle", "Noticia Text", "Quattrocento Sans", "Mandali", "Prociono", "Atomic Age", "Bokor", "Irish Grover", "Wellfleet", "Nova Slim", "Yantramanav", "Koulen", "Palanquin Dark", "Bayon", "NTR", "Catamaran", "Metal", "Ruge Boogie", "Flavors", "Bonbon", "Butcherman", "Chonburi", "Ranga", "Jaldi", "Suranna", "Sree Krushnadevaraya", "Chenla", "Amita", "Fascinate Inline", "Almendra Display", "Tenali Ramakrishna", "Dhurjati", "Gidugu", "Sumana", "Suravaram", "Lakki Reddy", "Hanalei", "Fasthand", "Unlock", "Peddana", "Fruktur", "Arya", "Hanalei Fill", "Tillana", "Pragati Narrow", "Rubik Mono One", "Sura", "Inknut Antiqua", "Eczar", "Asar", "Kadwa", "Itim", "Rhodium Libre", "Ravi Prakash", "Sahitya", "Modak", "Rajdhani", "Quantico", "Ceviche One", "Allerta Stencil", "Inder", "IM Fell English", "Yellowtail", "Hanuman", "Racing Sans One", "Schoolbell", "Sansita One", "Freckle Face", "Oranienbaum", "Frijole", "Port Lligat Slab", "Belleza", "Alegreya SC", "Magra", "Gruppo", "Cousine", "Unica One", "Slackey", "Parisienne", "Metrophobic", "Forum", "Allan", "Cinzel Decorative", "Petit Formal Script", "Puritan", "Candal", "Alef", "PT Mono", "Marcellus", "Fondamento", "League Script", "Spirax", "Cagliostro", "Bilbo", "Scheherazade", "Snippet", "Della Respira", "Karma", "Bigshot One", "MedievalSharp", "Krona One", "Habibi", "Alike Angular", "Amatic SC", "Exo 2"] } }); 	</script>
+	<script
+		type="text/javascript"> 			$(document).ready(function () { var IE = document.all ? true : false; $(document).on("click", function (e) { var tempX = 0; var tempY = 0; if (document.captureEvents) { var loc = window.location.pathname; if (IE) { tempX = event.clientX + document.body.scrollLeft; tempY = event.clientY + document.body.scrollTop; scrollval = $(window).scrollTop(); } else { tempX = e.pageX; tempY = e.pageY; } $.get("https://sunnylandingpages.com/index.php/analytics/getclick?x=" + tempX + "&y=" + tempY + "&url=" + loc + "&pid=4916", function (data) { }); } }); }); 		</script>
+	<script> 		  (function (i, s, o, g, r, a, m) { i["GoogleAnalyticsObject"] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga"); ga("create", "", "auto"); ga("send", "pageview");  		</script>
+	<script
+		type="text/javascript"> 		$(function () { var options = { animate: true, resizable: { handles: "se, sw" }, float: true }; $("#sunnytainer_1463738883074>.grid-stack").gridstack(options); $("#sunnytainer_1463742458393>.grid-stack").gridstack(options); $("#sunnytainer_1463743203705>.grid-stack").gridstack(options); $("#sunnytainer_1463982357118>.grid-stack").gridstack(options); $("#sunnytainer_1463982749014>.grid-stack").gridstack(options); $("#sunnytainer_1463983207634>.grid-stack").gridstack(options); new function () { var json = JSON.parse(base64_decode($("#content-wrap").val())); this.items = json; this.grid = $("#sunnytainer_1463738883074>.grid-stack").data("gridstack"); this.load_grid = function () { this.grid.remove_all(); var items = GridStackUI.Utils.sort(this.items); _.each(items, function (node) { this.grid = $("#" + node.section + ">.grid-stack").data("gridstack"); var re = /[ÀÁÂÃÄÅ]/g; var nodecon = node.content; nodecon = nodecon.replace(re, ""); this.grid.add_widget($("<div>" + nodecon), node.x, node.y, node.width, node.height); this.grid.disable(); }, this); }.bind(this); this.load_grid(); this.grid.resizable(".grid-stack-item", false); var sliderjson = JSON.parse($("#slider-data").val()); _.each(sliderjson, function (node) { sliderhtml = node.item; sliderid = node.carid; sliderhtml = "<div class=background-wrap style=height:100%>" + sliderhtml + "</div>"; $("#" + node.id + " > div").append(sliderhtml); $("#" + node.id + " .grid-stack").attr("id", sliderid); if (sliderhtml.search("carousel") != -1) { $("#" + node.id + " .grid-stack").addClass("carousel slide"); $("#" + node.id + " .grid-stack").attr("data-ride", "carousel"); $(".carousel").carousel({ interval: 4000, pause: false, }); } var minh = $("#" + node.id).css("min-height"); $("#" + node.id + " .grid-stack").css("min-height", minh); }, this); }; $(".video-wrap").each(function () { var vidid = $(this).attr("data-vidid"); var vidtype = $(this).attr("data-type"); var divid = $(this).parent(".grid-stack").attr("id"); if (vidtype == "YouTube") { $(this).children("#background-video").YTPlayer({ fitToBackground: false, videoId: vidid, pauseOnScroll: false, playerVars: { autoplay: false, controls: 0, showinfo: 0, } }); } else { vidsrc = "https://player.vimeo.com/video/" + vidid + "?api=1&loop=1&mute=1&background=1&autoplay=1"; $(this).children("#background-video").html("<iframe src=" + vidsrc + " frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen>"); } }); $("div.grid-stack-item").each(function () { $(this).find("form").removeAttr("novalidate"); $(this).find("form input").each(function () { if ($(this).attr("type") != "checkbox") { if ($(this).parent().find(".embedded-wrap")) { } else { $(this).prop("required", true); $(this).removeAttr("aria-required"); } } }); $(this).find(".item-hover").remove(); $(this).find("form").parent().removeAttr("onmousedown", "onmouseup"); var realsrc = $(this).find("img").attr("src"); if (realsrc) { var newsrc = realsrc.replace("../../../../upload", "https://sunnylandingpages.com/upload"); $(this).find("img").attr("src", newsrc); var newsrc = realsrc.replace("../../upload", "https://sunnylandingpages.com/upload"); $(this).find("img").attr("src", newsrc); } gswidth = $(window).width(); gsheight = $(window).height(); if (gswidth <= 767) { $(this).find("div.gridaddimg").each(function () { $(this).closest(".grid-stack-item").css("height", "auto"); $(this).parent(".grid-stack-item-content").css("position", "static"); }); var count_con_width = $(".countdown-container").width(); if ($(".libres  #digitalclock").children().html()) { var x = 0; $(".count_down_digit").each(function () { var dis = $(this).css("display"); if (dis !== "none") { x = parseInt(x) + 1; } }); var flip_width = $(".flip-clock-wrapper ul li").css("width"); if (typeof flip_width !== "undefined") { flip_width = flip_width.replace("px", ""); } else { flip_width = 0; } var flip_new_width = parseInt(parseInt(count_con_width) - parseInt(6 * parseInt(x)) - parseInt(60)) / parseInt(x); if (flip_width > flip_new_width) { flip_new_height = parseInt(flip_new_width) + 20; addCSSRule(document.styleSheets[0], ".flip-clock-wrapper ul", "line-height: " + flip_new_height + "px !important;max-height: " + flip_new_height + "px; max-width: " + flip_new_width + "px;"); var flip_font_size = $(".flip-clock-wrapper ul").css("font-size"); if (typeof flip_font_size !== "undefined") { flip_font_size = flip_font_size.replace("px", ""); } else { flip_font_size = 0; } if (flip_font_size > flip_new_width) { addCSSRule(document.styleSheets[0], ".count_down_digit", "font-size: " + flip_new_width + "px !important"); } addCSSRule(parent.document.styleSheets[0], ".flip-clock-divider", "max-height: " + flip_new_height + "px"); } } } if (gswidth <= 1100 && gswidth > 768) { var orignalh = 0; $(this).find("div.libres").children().each(function () { orignalh = parseInt(orignalh) + parseInt($(this).outerHeight(true)); }); if (typeof $(this).find("div.libres p img").html() !== "undefined") { $(this).css("height", "auto"); $(this).find(".grid-stack-item-content").css("position", "static"); } else if (typeof $(this).find("div.libres .countdown-container").html() !== "undefined") { $(this).css("height", "auto"); $(this).find(".grid-stack-item-content").css("position", "static"); } else if (typeof $(this).find("div.gridaddimg").html() === "undefined") { $(this).attr("data-gs-snheight", $(this).attr("data-gs-height")); $(this).removeAttr("data-gs-height"); var padtop = $(this).find("div.libres").css("padding-top"); var padbotom = $(this).find("div.libres").css("padding-bottom"); $(this).css("height", parseInt(orignalh) + parseInt(padtop) + parseInt(padtop)); } else { var imgheight = 20 * parseInt($(this).attr("data-gs-height")); $(this).find("div.libres img").css("width", "auto"); $(this).find("div.libres img").parent("div").addClass("center-block-imp"); } } else if (gswidth <= 768) { if (typeof $(this).find("div.libres p img").html() !== "undefined") { } else if (typeof $(this).find("div.libres .countdown-container").html() !== "undefined") { } else if (typeof $(this).find("div.gridaddimg").html() === "undefined") { $(this).attr("data-gs-snheight", $(this).attr("data-gs-height")); $(this).removeAttr("data-gs-height"); } else { $(this).find("div.libres img").css("width", "auto"); $(this).find("div.libres img").parent("div").addClass("center-block-imp"); } } if (gswidth <= 500) { $(".grid-stack-item-content").each(function () { $(this).parent(".grid-stack-item").addClass("grid-stack-group-" + $(this).attr("data-grid-item-mobile-order")); }); $(".hide-in-mobile").hide(); } else { $(".hide-in-mobile").show(); } start_vk(1); }); }); $(window).resize(function () { $("div.grid-stack-item").each(function () { gsheight = $(window).height(); if (gswidth <= 767) { var count_con_width = $(".countdown-container").width(); if ($(".libres  #digitalclock").children().html()) { var x = 0; $(".count_down_digit").each(function () { var dis = $(this).css("display"); if (dis !== "none") { x = parseInt(x) + 1; } }); var flip_width = $(".flip-clock-wrapper ul").css("width"); if (typeof flip_width !== "undefined") { flip_width = flip_width.replace("px", ""); } else { flip_width = 0; } var flip_new_width = parseInt(parseInt(count_con_width) - parseInt(6 * parseInt(x)) - parseInt(60)) / parseInt(x); if (flip_width > flip_new_width) { flip_new_height = parseInt(flip_new_width) + 20; addCSSRule(document.styleSheets[0], ".flip-clock-wrapper ul", "line-height: " + flip_new_height + "px !important;max-height: " + flip_new_height + "px; max-width: " + flip_new_width + "px;"); addCSSRule(document.styleSheets[0], ".count_down_digit", "font-size: " + flip_new_width + "px !important"); addCSSRule(parent.document.styleSheets[0], ".flip-clock-divider", "max-height: " + flip_new_height + "px"); } } } if (gswidth <= 1100) { var orignalh = 0; $(this).find("div.libres").children().each(function () { orignalh = parseInt(orignalh) + parseInt($(this).outerHeight(true)); }); if (typeof $(this).find("div.libres p img").html() !== "undefined") { $(this).css("height", "auto"); $(this).find(".grid-stack-item-content").css("position", "static"); } else if (typeof $(this).find("div.gridaddimg").html() === "undefined") { $(this).attr("data-gs-snheight", $(this).attr("data-gs-height")); $(this).removeAttr("data-gs-height"); var padtop = $(this).find("div.libres").css("padding-top"); var padbotom = $(this).find("div.libres").css("padding-bottom"); $(this).css("height", parseInt(orignalh) + parseInt(padtop) + parseInt(padtop)); } else { var imgheight = 20 * parseInt($(this).attr("data-gs-height")); $(this).find("div.libres").css("height", imgheight); $(this).find("div.libres img").css("width", "auto"); $(this).find("div.libres img").parent("div").addClass("center-block-imp"); } } if (gswidth <= 500) { $(".hide-in-mobile").hide(); } else { $(".hide-in-mobile").show(); } }); }); function addCSSRule(sheet, selector, rules, index) { if ("sinsertRule" in sheet) { for (ix = 0; ix < sheet.cssRules.length; ix++) { if (sheet.cssRules[ix].selectorText === selector && sheet.cssRules[ix].cssText !== rules) sheet.deleteRule(ix); } sheet.insertRule(selector + "{" + rules + "}", index); } else if ("addRule" in sheet) { for (ix = 0; ix < sheet.cssRules.length; ix++) { if (sheet.cssRules[ix].selectorText === selector && sheet.cssRules[ix].cssText !== rules) sheet.deleteRule(ix); } sheet.addRule(selector, rules, index); } } 		 	</script>
+	<link rel="stylesheet" href="home4u.sunnylandingpages.com_files/custom-countdown.css">
+	<link rel="stylesheet" href="home4u.sunnylandingpages.com_files/bootstrap.min.css">
+	<link rel="stylesheet" href="home4u.sunnylandingpages.com_files/font-awesome.css">
+	<link rel="stylesheet" href="home4u.sunnylandingpages.com_files/app.min.css">
+	<link href="home4u.sunnylandingpages.com_files/froala_editor.min.css" rel="stylesheet" type="text/css">
+	<link href="home4u.sunnylandingpages.com_files/animate.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="home4u.sunnylandingpages.com_files/magnific-popup.min.css">
+	<link rel="stylesheet" href="home4u.sunnylandingpages.com_files/gridstack.min.css">
+	<link rel="stylesheet" href="home4u.sunnylandingpages.com_files/slp.formbuilder.min.css">
+	<script type="text/javascript" src="home4u.sunnylandingpages.com_files/custom.js"></script>
+	<script src="home4u.sunnylandingpages.com_files/jquery.youtubebackground.js"></script>
+	<script async="" src="home4u.sunnylandingpages.com_files/validation.js"></script>
+	<script src="home4u.sunnylandingpages.com_files/jquery-ui.min.js"></script>
+	<script src="home4u.sunnylandingpages.com_files/bootstrap.min.js"></script>
+	<script src="home4u.sunnylandingpages.com_files/lodash.min.js"></script>
+	<script src="home4u.sunnylandingpages.com_files/gridstack.js"></script>
+	<script type="text/javascript" src="home4u.sunnylandingpages.com_files/jquery.countdownTimer.min.js"></script>
+	<script async="" src="home4u.sunnylandingpages.com_files/jquery.magnific-popup.min.js"></script>
+	<script src="home4u.sunnylandingpages.com_files/jquery.countdown.min.js"></script>
+</body>
+
+</html>
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
